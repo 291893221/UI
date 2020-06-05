@@ -6,10 +6,11 @@ import HelloWorld from './pages/helloWorld/HelloWorld'
 import TodoListAntd from './components/TodoListAntd'
 import TodoListAntdSearch from './components/TodoListAntdSearch'
 import TodoListAntdSearchSelect from './components/TodoListAntdSearchSelect'
+import Router from './routers/Router'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <TodoListAntdSearchSelect/>,
+  <Router/>,
   document.getElementById('root')
 );
 
