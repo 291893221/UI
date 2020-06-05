@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TodoList from './component/TodoList';
-import HelloWorld from './page/helloWorld/HelloWorld'
-import TodoListAntd from './component/TodoListAntd'
-import TodoListAntdSearch from './component/TodoListAntdSearch'
-import TodoListAntdSearchSelect from './component/TodoListAntdSearchSelect'
+import TodoList from './components/TodoList';
+import HelloWorld from './pages/helloWorld/HelloWorld'
+import TodoListAntd from './components/TodoListAntd'
+import TodoListAntdSearch from './components/TodoListAntdSearch'
+import TodoListAntdSearchSelect from './components/TodoListAntdSearchSelect'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
